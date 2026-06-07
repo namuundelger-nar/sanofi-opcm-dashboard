@@ -88,6 +88,7 @@ server = app.server
 # Navigation Bar
 navbar = dbc.NavbarSimple(
     children=[
+        dbc.Button("🐙 View on GitHub", href="https://github.com/namuundelger-nar/sanofi-opcm-dashboard", target="_blank", color="dark", className="fw-bold shadow-sm"),
         dbc.Button("Help & Documentation (Advisor)", id="open-help-modal", color="info", className="ms-2 fw-bold shadow-sm", n_clicks=0),
     ],
     brand="R&D Capacity Management & Corporate Finance",
